@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Humanities Data and Mapping Environments (HDME) presentation on mapping methods, workflows, and tools, featuring a spatial project of Besançon.">
+  <title>The Rainbow Dragons of Mapping - HDME Besançon 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+  <div class="glow-wrapper" aria-hidden="true">
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo-area">
+        <img src="images/logo.jpg" alt="Rainbow Dragons Logo" class="site-logo" id="site-logo-img">
+        <div class="logo-text">
+          <span class="logo-title">The Rainbow Dragons</span>
+          <span class="logo-subtitle">of Mapping</span>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-tabs" id="nav-tabs-list">
+          <li><button class="tab-btn active" data-target="home-tab" id="btn-home">Home &amp; Good Map</button></li>
+          <li><button class="tab-btn" data-target="bad-map-tab" id="btn-bad-map">What is a Bad Map?</button></li>
+          <li><button class="tab-btn" data-target="thinking-tab" id="btn-thinking">Thinking Workflow</button></li>
+          <li><button class="tab-btn" data-target="technical-tab" id="btn-technical">Technical Stack</button></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-menu-toggle" id="menu-toggle-btn" aria-label="Toggle Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-drawer" id="mobile-menu-drawer">
+    <ul class="mobile-nav-tabs">
+      <li><button class="mobile-tab-btn active" data-target="home-tab" id="m-btn-home">Home &amp; Good Map</button></li>
+      <li><button class="mobile-tab-btn" data-target="bad-map-tab" id="m-btn-bad-map">What is a Bad Map?</button></li>
+      <li><button class="mobile-tab-btn" data-target="thinking-tab" id="m-btn-thinking">Thinking Workflow</button></li>
+      <li><button class="mobile-tab-btn" data-target="technical-tab" id="m-btn-technical">Technical Stack</button></li>
+    </ul>
+  </div>
+
+  <main class="main-content" id="main-content-area">
+
+    <section class="tab-panel active" id="home-tab" role="tabpanel" aria-labelledby="btn-home">
+
+      <div class="hero-section">
+        <span class="badge badge-glow">Besançon 2026</span>
+        <h1 class="hero-title">Bienvenue à Besançon,<br><span class="text-gradient">fellow rainbow dragons!</span></h1>
+        <p class="hero-lead">
+          Welcome to our project! As fellow rainbow dragons in Besançon, we set out to explore spatial narratives by combining critical geography with digital tools. We learned that a map is not just a coordinate plot; it is a communication medium that bridges technical workflows with conceptual choices.
+        </p>
+      </div>
+
+      <div class="info-grid">
+        <div class="glass-card thesis-card">
+          <div class="card-icon cyan-glow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12a5 5 0 0 0 5 5h3v-9H7a5 5 0 0 0-5 5z"/><path d="M22 12a5 5 0 0 0-5-5h-3v9h3a5 5 0 0 0 5-5z"/><path d="M12 2v20"/></svg>
+          </div>
+          <h3>Visual &amp; Spatial Communication</h3>
+          <p>
+            We realized how easily traditional maps can fail due to visual clutter, lack of context, and hidden methodological steps. Our goal was to bridge the gap between design and data to make maps that are transparent, intuitive, and engaging.
+          </p>
+        </div>
+
+        <div class="glass-card thesis-card">
+          <div class="card-icon gold-glow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>The Mapping Process</h3>
+          <p>
+            How did we build our map? We divided our journey into two key parts: a <strong>technical side</strong> (fieldwork, georeferencing, and data cleaning) and a <strong>thinking side</strong> (critical analysis, spatial theory, and data curation).
+          </p>
+        </div>
+      </div>
+
+      <div class="map-showcase glass-card" id="interactive-map-section">
+        <div class="map-header">
+          <div class="map-header-left">
+            <span class="status-indicator"></span>
+            <h4>Interactive Showcase: Our Good Map</h4>
+          </div>
+          <div class="map-header-actions">
+            <button class="map-action-btn" id="btn-refresh-map" title="Reload Map">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+            </button>
+            <a href="ourmap.html" target="_blank" class="map-action-btn" title="Open in new window">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="map-iframe-container">
+          <iframe src="ourmap.html" title="Besançon Spatial Map" id="kepler-map-iframe" loading="lazy"></iframe>
+        </div>
+
+        <div class="map-footer">
+          <p><strong>Our Method:</strong> We gathered location data by taking geotagged photos during our fieldwork in the streets of Besançon. We then extracted the EXIF metadata and used Kepler.gl to dynamically map our path, timestamps, and photo locations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="bad-map-tab" role="tabpanel" aria-labelledby="btn-bad-map">
+      <div class="section-header">
+        <span class="badge badge-error">Critique &amp; Contrast</span>
+        <h2>What is a bad map?</h2>
+        <p class="section-lead">To understand how to build a good map, we started by analyzing what makes a map "bad." We looked at the visual, technical, and communicative choices that can lead to failures.</p>
+      </div>
+
+      <div class="split-layout">
+
+        <div class="critique-details">
+          <div class="glass-card critique-card">
+            <h3 class="critique-title"><span class="number-badge badge-red">1</span> Presentation &amp; Aesthetics</h3>
+            <p>We saw how a bad map suffers from poor layout decisions. Without visual hierarchy, everything competes for attention. Common issues we identified include clashing color palettes, unreadable typography, overlapping labels, and missing scales.</p>
+          </div>
+
+          <div class="glass-card critique-card">
+            <h3 class="critique-title"><span class="number-badge badge-red">2</span> Communication Failures</h3>
+            <p>If the audience cannot extract the core message quickly, the map fails to communicate. We learned that incomplete legends, missing North arrows, and a lack of geographical context render data meaningless.</p>
+          </div>
+
+          <div class="glass-card critique-card">
+            <h3 class="critique-title"><span class="number-badge badge-red">3</span> The Unexplained Workflow</h3>
+            <p>A major failure we discussed in the workshop is leaving the mapping workflow unexplained. Bad maps often present data as absolute truth while hiding the distortions, design choices, and curation decisions made behind the scenes.</p>
+          </div>
+        </div>
+
+        <div class="image-showcase-container">
+          <div class="glass-card image-viewer">
+            <div class="image-viewer-header">
+              <span class="tag tag-red">Case Study: Bad Map Example</span>
+            </div>
+            <div class="image-wrapper zoom-container" id="badmap-zoom-wrapper">
+              <img src="images/badmap.jpg" alt="Example of a Bad Map" class="viewer-img" id="badmap-img">
+              <div class="zoom-lens" id="badmap-lens"></div>
+            </div>
+            <div class="image-viewer-footer">
+              <p class="img-caption">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-icon"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                <strong>Our Observations:</strong> This NOAA map is hard to read due to unharmonious, categorical colors for chronological temperature records (1880–2015). Its legend features inconsistent time intervals and groups major periods (e.g. 1880–1940 and 1951-1970) as "Other," hiding progression.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="thinking-tab" role="tabpanel" aria-labelledby="btn-thinking">
+      <div class="section-header">
+        <span class="badge badge-success">Conceptual Design</span>
+        <h2>How to Create a Good Map: Step 1</h2>
+        <p class="section-lead">For us, mapping was primarily a critical thinking exercise. Our process started on the classroom whiteboard, where we drafted our research questions and mapped out our workflow.</p>
+      </div>
+
+      <div class="split-layout reverse">
+
+        <div class="critique-details">
+          <div class="glass-card workflow-step-card">
+            <div class="step-header">
+              <span class="step-num">Step A</span>
+              <h3>Formulating Research Questions</h3>
+            </div>
+            <p>What are we mapping and why? We learned that a good map starts with a clear research question. In Besançon, we didn't just map photos; we sought to trace our exploration pathways and capture our cohort's spatial footprint.</p>
+          </div>
+
+          <div class="glass-card workflow-step-card">
+            <div class="step-header">
+              <span class="step-num">Step B</span>
+              <h3>Designing the Workflow</h3>
+            </div>
+            <p>We designed a workflow from data collection (using our smartphones to log location services) to data formatting (cleaning CSV tables and extracting EXIF coordinates) to ensure our mapping pipeline was reproducible.</p>
+          </div>
+
+          <div class="glass-card workflow-step-card">
+            <div class="step-header">
+              <span class="step-num">Step C</span>
+              <h3>Critical Data Curation</h3>
+            </div>
+            <p>We learned that cartography is the art of selection. We had to decide what data to keep, how to handle errors, and how to transparently document our collection limits.</p>
+          </div>
+        </div>
+
+        <div class="image-showcase-container">
+          <div class="glass-card image-viewer">
+            <div class="image-viewer-header">
+              <span class="tag tag-green">Classroom Whiteboard Session</span>
+            </div>
+            <div class="image-wrapper zoom-container" id="whiteboard-zoom-wrapper">
+              <img src="images/whiteboard.jpg" alt="Research Workflow Design" class="viewer-img" id="whiteboard-img">
+              <div class="zoom-lens" id="whiteboard-lens"></div>
+            </div>
+            <div class="image-viewer-footer">
+              <p class="img-caption">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-icon"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                <strong>Our Brainstorming:</strong> We designed an adaptable, repeatable workflow (phone data capture -> Google Drive upload -> automatic EXIF extraction -> spreadsheet manual corrections -> R data cleaning -> Shapefiles/Web Maps) with custom hover tooltip specifications (image, shape, timestamp, collector).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="technical-tab" role="tabpanel" aria-labelledby="btn-technical">
+      <div class="section-header">
+        <span class="badge badge-purple">Tool Ecosystem</span>
+        <h2>The Tools We Mastered</h2>
+        <p class="section-lead">During the workshop, we worked with a combination of cloud platforms, local desktop software, and data management pipelines to build our environment.</p>
+      </div>
+
+      <div class="tools-presentation-container">
+
+        <div class="presentation-row align-left">
+          <div class="presentation-image-wrapper">
+            <img src="images/kepler.png" alt="Kepler.gl Map Visualization" class="presentation-img">
+          </div>
+          <div class="presentation-content">
+            <h3 class="tool-title">Kepler.gl</h3>
+            <p class="tool-use"><strong>What we did:</strong> We practiced visualizing the geographical footprints of Enlightenment figures, mapping their birth and death locations, nationalities, and occupations.</p>
+            <p class="tool-purpose"><strong>How we used it:</strong> Kepler.gl functioned as our spatial visualization dashboard, rendering birth-to-death migration flows using arc layers, mapping demographic density, and comparing historical life trajectories across Europe and the Americas.</p>
+            <div class="tool-actions">
+              <a href="https://kepler.gl" target="_blank" class="btn btn-secondary">Visit Kepler.gl &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="presentation-row align-right">
+          <div class="presentation-content">
+            <h3 class="tool-title">GitHub &amp; GitHub Pages</h3>
+            <p class="tool-use"><strong>What we did:</strong> We used GitHub Desktop to track local file edits, manage branches, and commit documentation updates for our project (repository `ESU26`).</p>
+            <p class="tool-purpose"><strong>How we used it:</strong> We created our first website using GitHub, both locally and in the cloud. We used GitHub Desktop to write down our project's ethical principles in a dedicated page, then pushed them to the repository for publication online. Now you can know what to watch out for when collecting data in the field. Please stay safe, rainbow dragons!</p>
+            <div class="tool-actions">
+              <a href="https://github.com" target="_blank" class="btn btn-secondary">Explore Repository &rarr;</a>
+            </div>
+          </div>
+          <div class="presentation-image-wrapper">
+            <img src="images/GitHubDesktop_Screenshot.png" alt="GitHub Pages and Code hosting" class="presentation-img">
+          </div>
+        </div>
+
+        <div class="presentation-row align-left">
+          <div class="presentation-image-wrapper">
+            <img src="images/positcloud.png" alt="RStudio R Markdown Environment" class="presentation-img">
+          </div>
+          <div class="presentation-content">
+            <h3 class="tool-title">Posit.cloud / RStudio</h3>
+            <p class="tool-use"><strong>What we did:</strong> We ran the R Markdown notebook `exifdata.rmd` (created by David Joseph Wrisley) to automatically extract metadata and GPS logs from fieldwork photos.</p>
+            <p class="tool-purpose"><strong>How we used it:</strong> Posit.cloud provided a shared, cloud R environment (`HDME 2025` project) to compile spatial datasets, clean coordinates, and output a structured spreadsheet (`9July.csv`) for mapping.</p>
+            <div class="tool-actions">
+              <a href="https://posit.cloud" target="_blank" class="btn btn-secondary">Visit Posit.cloud &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="presentation-row align-right">
+          <div class="presentation-content">
+            <h3 class="tool-title">QGIS (Long Term Release)</h3>
+            <p class="tool-use"><strong>What we did:</strong> We tested QGIS for mapping UFO sightings in the Arabian Peninsula (could they be other dragons?), importing a sheet subset dataset over an OpenStreetMap basemap.</p>
+            <p class="tool-purpose"><strong>How we used it:</strong> QGIS served as our core desktop geographical information system (GIS), where we applied coordinate reference systems (EPSG:3857), styled data points using customized symbols, and labeled records.</p>
+            <div class="tool-actions">
+              <a href="https://www.qgis.org" target="_blank" class="btn btn-secondary">Learn about QGIS &rarr;</a>
+            </div>
+          </div>
+          <div class="presentation-image-wrapper">
+            <img src="images/QGIS_Screenshot.png" alt="QGIS Desktop Interface" class="presentation-img">
+          </div>
+        </div>
+
+        <div class="presentation-row align-left">
+          <div class="presentation-image-wrapper">
+            <img src="images/OpenStreetMap_Edit_Udine.png" alt="OpenStreetMap Web Editor" class="presentation-img">
+          </div>
+          <div class="presentation-content">
+            <h3 class="tool-title">OpenStreetMap (OSM)</h3>
+            <p class="tool-use"><strong>What we did:</strong> We each practiced editing OpenStreetMap for our own hometowns, contributing localized points of interest (POIs) to the global map database.</p>
+            <p class="tool-purpose"><strong>How we used it:</strong> We used OpenStreetMap's web-based iD editor to learn how to contribute to open geographic data. As shown in our example based on Udine (Italy), everyone can improve the map by adding missing points of interest, changing names and categories, or reshaping the landscape. So now go map the world, fellow rainbow dragons!</p>
+            <div class="tool-actions">
+              <a href="https://www.openstreetmap.org" target="_blank" class="btn btn-secondary">Explore OSM &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="presentation-row align-right">
+          <div class="presentation-content">
+            <h3 class="tool-title">Overpass Turbo</h3>
+            <p class="tool-use"><strong>What we did:</strong> We designed custom Overpass API queries, exploring and extracting specific feature tags from the OpenStreetMap database.</p>
+            <p class="tool-purpose"><strong>How we used it:</strong> As shown in our example querying helipads (`nwr["aeroway"="helipad"]`) in the Himalayas, Overpass Turbo allowed us to selectively retrieve vector nodes and export them as clean XML or GeoJSON datasets.</p>
+            <div class="tool-actions">
+              <a href="https://overpass-turbo.eu" target="_blank" class="btn btn-secondary">Open Overpass Turbo &rarr;</a>
+            </div>
+          </div>
+          <div class="presentation-image-wrapper">
+            <img src="images/Screenshot Overpass Turbo.png" alt="Overpass Turbo API Query" class="presentation-img">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="supporting-tools-section">
+        <div class="section-subheader">
+          <span class="badge badge-purple">Universal Helpers</span>
+          <h3>Supporting Infrastructure</h3>
+          <p>These platforms and assistants integrated with our entire workflow, serving as collaborative foundations and debugging partners for all the core mapping processes.</p>
+        </div>
+        
+        <div class="supporting-tools-grid">
+          
+          <div class="glass-card helper-card">
+            <div class="helper-image-wrapper">
+              <img src="images/GoogleDrive_Screenshot.png" alt="Google Drive Shared Folder" class="helper-img">
+            </div>
+            <div class="helper-content">
+              <h4>Google Drive</h4>
+              <p><strong>What we did:</strong> We established a shared cohort directory named `HDME shared 2026` to organize workshop materials, screenshots, and readings.</p>
+              <p><strong>Cross-Platform Use:</strong> Google Drive acted as our universal data hub, housing subfolders for shared screenshots, whiteboard session images, datasets, presentations, and collaborative Kepler map files (`exercisekepler.gl.html`).</p>
+              <div class="helper-actions">
+                <a href="https://drive.google.com" target="_blank" class="btn btn-secondary">Go to Google Drive &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card helper-card">
+            <div class="helper-image-wrapper">
+              <img src="images/ai_llm.jpg" alt="AI Assistant Conversation" class="helper-img">
+            </div>
+            <div class="helper-content">
+              <h4>AI Curation &amp; Coding Assistants</h4>
+              <p><strong>What we did:</strong> We requested assistance in debugging custom map scripts, resolving coordinate spacing anomalies, and styling complex page layouts.</p>
+              <p><strong>Cross-Platform Use:</strong> Conversational AI served as our digital co-pilot for writing clean JavaScript, fixing CSS overflow bugs, and transforming raw EXIF lists into clean spatial tables ready for web visualization.</p>
+              <div class="helper-actions">
+                <span class="tool-link-static" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted);">AI Curation Helper</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="callout-box glass-card">
+        <div class="callout-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </div>
+        <div class="callout-content">
+          <h4>Our Learning Syllabus</h4>
+          <p>These tools and setup guides were part of our workshop preparation led by Prof. David Joseph Wrisley and Dr. Voica Pușcașiu. You can check out the official HDME preparation syllabus for setup details, QGIS launch tips, and instructions on location logging.</p>
+          <a href="https://djwrisley.github.io/HDME/preparation/" target="_blank" class="btn btn-primary" id="btn-syllabus-link">Open Workshop Page</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <p>&copy; 2026 The Rainbow Dragons. Built for the HDME Workshop &bull; ESUDH Besançon.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
