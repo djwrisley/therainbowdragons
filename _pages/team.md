@@ -1,7 +1,7 @@
 ---
-title: "About Us"
+title: "Team"
 layout: single
-permalink: /about/
+permalink: /team/
 author_profile: false
 ---
 
