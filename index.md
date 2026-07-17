@@ -1,7 +1,7 @@
 ---
 title: "The Rainbow Dragons of Mapping"
 layout: single
-author_profile: false
+author_profile: true
 ---
 
 ## Welcome, fellow Rainbow Dragons
