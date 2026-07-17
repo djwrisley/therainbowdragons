@@ -5,7 +5,7 @@ permalink: /data-dictionary/
 author_profile: false
 ---
 
-Our visual collection of Doors was manually annotated on 5 categories. Four of the categories are simple Yes/No binaries — Open/Closed, Round-Top/Flat-Top, Graffiti/No-Graffiti, and Sticker-Signage/No-Sticker-Signage. The fifth, Color, was a selection from a limited number of options. The rationale for each annotation is below.
+Our visual collection of Doors in Besançon, France created at the [ESUDH](https://esudh.github.io) in the [Humanities Data and Mapping Environments](https://djwrisley.github.io/HDME/) course was manually annotated on 5 categories. Four of the categories are simple Yes/No binaries — Open/Closed, Round-Top/Flat-Top, Graffiti/No-Graffiti, and Sticker-Signage/No-Sticker-Signage. The fifth, Color, was a selection from a limited number of options. The rationale for each annotation is below.
 
 | Category | Values | Rationale |
 |---|---|---|
