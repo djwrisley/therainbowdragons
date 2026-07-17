@@ -1,9 +1,15 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
+  - title: "The Doors"
+    url: /project-description/
+  - title: "M1"
+    url: /map-1/
+  - title: "M2"
+    url: /map-2/
+  - title: "M3"
+    url: /map-3/
+  - title: "M4"
+    url: /map-4/
+  - title: "M5"
+    url: /map-5/
+  - title: "About Us"
     url: /about/
