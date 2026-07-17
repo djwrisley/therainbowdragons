@@ -7,6 +7,8 @@ main:
     url: /map-2/
   - title: "M3"
     url: /map-3/
+  - title: "M4"
+    url: /map-4/
   - title: "Reuse"
     url: /reuse/
   - title: "About Us"
