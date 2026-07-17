@@ -26,7 +26,7 @@ choices.
    Cameras were configured to capture geolocation data for each photograph.
 
 2. **Data Collection**
-   Photographs were captured with geotagging enabled, in the streets of Besançon, in accordance with agreed technical and ethical protocols. See Selection Workflow for more information.
+   Photographs were captured with geotagging enabled, in the streets of Besançon, in accordance with agreed technical and ethical protocols. See [Selection Workflow](#selection-workflow) for more information.
 
 3. **Data Storage**
    All images were uploaded to a shared Google Drive folder for the workshop.
@@ -42,7 +42,32 @@ choices.
 
 7. **Data Integration**
    The annotation dataset and the metadata dataset were merged using VLOOKUP functions, producing a single consolidated spreadsheet containing complete image-level data which were then mapped.
+
+## Selection Workflow
+
+During data collection we ensured to:
+
+* **Consider the context**
+
+* **Avoid photographing people** (standing next to doors, sitting behind a glass door, reflecting in the glass)
+   * Knowing that this dataset would eventually be published to a larger audience, we avoided including images of people who did not consent to having their likeness published.
+   * The photographers themselves were also instructed to avoid photographing others.
    
+* **Avoid PII (personally identifiable information)** 
+    * We decided not to take pictures of doors with personal information, phone numbers, or notice orders, to avoid amplifying personal information of residents on the web. We included photos of doors on commercial buildings, considering that information is already available to the public.
+
+* **Avoid military and police locations.**
+   * Many police stations and military areas prohibit photography of the building and its employees/visitors for security purposes. Our team decided to avoid taking photos of those buildings, and also used their discretion to avoid photography when police or military personnel were present, to prevent unnecessary interaction with armed forces.
+   * The aim of this exercise was exploratory.
+
+* **Remember that the photo has to be easily visible in thumbnail form.**
+
+* **Consider lighting and shadow** when taking a picture.
+
+* **Be careful for your own safety** — vehicles are present.
+   * In certain contexts, the full door couldn't be photographed from the sidewalk. Ahead of collection, we agreed to never put ourselves in a dangerous situation, and to ensure a clear line of sight of oncoming traffic (cars, bikes, scooters, the tram, etc.) when taking a snapshot.
+
+
 
 
 
