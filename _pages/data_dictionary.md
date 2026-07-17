@@ -5,12 +5,7 @@ permalink: /data-dictionary/
 author_profile: false
 ---
 
-
-The collection of Doors was manually annotated on 5 categories. Four of
-the categories are simple Yes/No binaries — Open/Closed, Round-Top/Flat-Top,
-Graffiti/No-Graffiti, and Sticker-Signage/No-Sticker-Signage. The fifth,
-Color, was a selection from a limited number of options. The rationale for
-each annotation is below.
+Our visual collection of Doors was manually annotated on 5 categories. Four of the categories are simple Yes/No binaries — Open/Closed, Round-Top/Flat-Top, Graffiti/No-Graffiti, and Sticker-Signage/No-Sticker-Signage. The fifth, Color, was a selection from a limited number of options. The rationale for each annotation is below.
 
 | Category | Values | Rationale |
 |---|---|---|
