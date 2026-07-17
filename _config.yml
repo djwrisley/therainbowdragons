@@ -55,7 +55,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "The Rainbow Dragons of Mapping"
+  name   : "ESU DH 2026"
   avatar : "/assets/images/logo.jpg"
   bio    : "Welcome to our project! As fellow Rainbow Dragons in Besançon, we set out to explore spatial narratives by combining critical geography with digital tools. We learned that a map is not just a coordinate plot; it is a communication medium that bridges technical workflows with conceptual choices."
 
