@@ -16,5 +16,6 @@ Take a look at the journey we took to get to Besançon:
 
 We also made something for you to have fun :D
 [Treasure Hunt Map](https://uploads.knightlab.com/storymapjs/f7f0680b3d6cdb4c536a2774511e6623/hdme-presentation-2nd-week/draft.html)
+
 ![QrCode](/therainbowdragons/assets/images/storyMap.png)
 
