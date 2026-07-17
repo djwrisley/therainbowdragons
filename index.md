@@ -4,21 +4,7 @@ layout: single
 author_profile: true
 ---
 
-As fellow Rainbow Dragons in Besançon, we set out to explore spatial
-narratives by combining critical geography with digital tools. We learned that a map is not just a coordinate plot — it is a communication medium that bridges technical workflows with conceptual choices.
 
-Our week began by asking what makes a map "good" or "bad." Studying a flawed example (a NOAA climate map with an inconsistent, misleading legend) helped us name three common failure points: cluttered visual hierarchy, unclear communication (missing legends, scales, or context), and an unexplained workflow that hides the choices behind the data.
-
-From there we built our own process in two parts: a **thinking side**
-(formulating a research question, designing a reproducible workflow, and
-deciding what data to keep, discard, or flag as uncertain) and a
-**technical side** (fieldwork, georeferencing, and data cleaning). Our
-workflow ran from phone-based data capture, to a shared Google Drive, to
-automatic EXIF extraction, to manual spreadsheet correction, to cleaning in
-R, to final shapefiles and web maps — using tools including Kepler.gl,
-QGIS, OpenStreetMap, and Overpass Turbo along the way.
-
-This site documents that process and the five maps it produced.
 
 ## How to navigate this site
 
@@ -26,9 +12,8 @@ This site documents that process and the five maps it produced.
 - **[M1](/therainbowdragons/map-1/)** — _one-line description of what this map covers._
 - **[M2](/therainbowdragons/map-2/)** — _one-line description._
 - **[M3](/therainbowdragons/map-3/)** — _one-line description._
-- **[M4](/therainbowdragons/map-4/)** — _one-line description._
-- **[M5](/therainbowdragons/map-5/)** — _one-line description._
+- ** [Reuse] (/therainbowdragons/reuse)** — _one-line description._
 - **[About Us](/therainbowdragons/about/)** — who we are and a bit about the team behind this project.
 
 We'd suggest starting with the Project Description for context, then
-working through M1 → M5 in order, since each map builds on the workflow described there.
+working through M1 → M3 in order.

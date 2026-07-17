@@ -1,0 +1,64 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body,
+.page__content,
+.archive__item-excerpt {
+  font-family: 'Inter', -apple-system, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-weight: 600;
+  color: #1A1A1A;
+}
+
+/* Base colors */
+body {
+  color: #1A1A1A;
+  background-color: #FFFFFF;
+}
+
+/* Links */
+a {
+  color: #2D5C88;
+}
+a:hover {
+  color: #1F4763;
+}
+
+/* Masthead / top nav */
+.masthead {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #EAEAEA;
+}
+.site-title,
+.masthead__inner-wrap a {
+  color: #1A1A1A;
+}
+.greedy-nav a:hover {
+  color: #2D5C88;
+}
+
+/* Buttons */
+.btn--primary {
+  background-color: #2D5C88;
+  border-color: #2D5C88;
+}
+.btn--primary:hover {
+  background-color: #1F4763;
+}
+
+/* Sidebar author box */
+.author__name,
+.sidebar h2 {
+  color: #1A1A1A;
+}
+
+/* Footer */
+.page__footer {
+  background-color: #FAFAFA;
+  color: #666;
+}
