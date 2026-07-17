@@ -1,21 +1,13 @@
 ---
-title: "The Rainbow Dragons of Mapping"
+title: "Welcome, fellow Rainbow Dragons"
 layout: single
 author_profile: true
 ---
 
-## Welcome, fellow Rainbow Dragons
-
 As fellow Rainbow Dragons in Besançon, we set out to explore spatial
-narratives by combining critical geography with digital tools. We learned
-that a map is not just a coordinate plot — it is a communication medium
-that bridges technical workflows with conceptual choices.
+narratives by combining critical geography with digital tools. We learned that a map is not just a coordinate plot — it is a communication medium that bridges technical workflows with conceptual choices.
 
-Our week began by asking what makes a map "good" or "bad." Studying a
-flawed example (a NOAA climate map with an inconsistent, misleading legend)
-helped us name three common failure points: cluttered visual hierarchy,
-unclear communication (missing legends, scales, or context), and an
-unexplained workflow that hides the choices behind the data.
+Our week began by asking what makes a map "good" or "bad." Studying a flawed example (a NOAA climate map with an inconsistent, misleading legend) helped us name three common failure points: cluttered visual hierarchy, unclear communication (missing legends, scales, or context), and an unexplained workflow that hides the choices behind the data.
 
 From there we built our own process in two parts: a **thinking side**
 (formulating a research question, designing a reproducible workflow, and
