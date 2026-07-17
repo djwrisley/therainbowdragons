@@ -1,7 +1,7 @@
 ---
 title: "From a Photographic Archive to Reusable Research Data"
 layout: single
-permalink: /dataset-reuse/
+permalink: /reuse/
 author_profile: false
 ---
 
