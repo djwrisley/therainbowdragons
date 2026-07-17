@@ -5,11 +5,10 @@ permalink: /project-description/
 author_profile: false
 ---
 
-Welcome to our project! As fellow Rainbow Dragons in Besançon, we set out to
-explore spatial narratives by combining critical geography with digital
-tools. We learned that a map is not just a coordinate plot — it is a
-communication medium that bridges technical workflows with conceptual
+Welcome to our project! As fellow Rainbow Dragons in Besançon, we set out to explore spatial narratives by combining critical geography with digital tools. We learned that a map is not just a coordinate plot — it is a communication medium that bridges technical workflows with conceptual
 choices.
+
+A previous collection of Doors of Besançon, France exists in [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Doors_in_Besan%C3%A7on). As of July 2026, it contained 19 doors. We documented more than 800! 
 
 ## Our toolkit
 
@@ -19,6 +18,7 @@ choices.
 - **OpenStreetMap** — hands-on edits to contribute points of interest to the open map database.
 - **Overpass Turbo** — custom queries to pull specific feature data from OpenStreetMap.
 - **GitHub & GitHub Pages** — version control and hosting for this site.
+- **various LLMs** - for brainstorming, forming queries and distant coding. 
 
 ## Our Workflow
 
