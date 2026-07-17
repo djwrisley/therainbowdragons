@@ -5,9 +5,6 @@ permalink: /dataset-reuse/
 author_profile: false
 ---
 
-
-# From a Photographic Archive to Reusable Research Data
-
 A photographic record of doors in Besançon, paired with structured
 information about selected characteristics: whether a door is open or
 closed, whether it has a rounded top, its main colour, and the presence of
