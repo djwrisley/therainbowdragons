@@ -1,5 +1,5 @@
 main:
-  - title: "The Doors"
+  - title: "Description"
     url: /project-description/
   - title: "M1"
     url: /map-1/
@@ -7,9 +7,7 @@ main:
     url: /map-2/
   - title: "M3"
     url: /map-3/
-  - title: "M4"
-    url: /map-4/
-  - title: "M5"
-    url: /map-5/
+  - title: "Reuse"
+    url: /reuse/
   - title: "About Us"
     url: /about/
