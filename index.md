@@ -26,8 +26,6 @@ This site documents that process and the five maps it produced.
 - **[M1](/therainbowdragons/map-1/)** — _one-line description of what this map covers._
 - **[M2](/therainbowdragons/map-2/)** — _one-line description._
 - **[M3](/therainbowdragons/map-3/)** — _one-line description._
-- **[M4](/therainbowdragons/map-4/)** — _one-line description._
-- **[M5](/therainbowdragons/map-5/)** — _one-line description._
 - **[About Us](/therainbowdragons/about/)** — who we are and a bit about the team behind this project.
 
 We'd suggest starting with the Project Description for context, then
