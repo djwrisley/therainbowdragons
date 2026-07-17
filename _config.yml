@@ -26,13 +26,13 @@ search: true
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+permalink: /:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+exclude:
+  - _posts
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -48,7 +48,6 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -62,7 +61,7 @@ author:
 
 
 footer:
-  links
+  links:
     - label: "ESU DH 2026"
       icon: "fas fa-fw fa-earth-americas"
       url: "https://esudh.github.io/"
@@ -71,17 +70,6 @@ footer:
       url: "https://esudh.github.io/workshops/humanities-data-mapping/"
 
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -89,10 +77,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
