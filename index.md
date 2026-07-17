@@ -12,9 +12,8 @@ author_profile: true
 - **[M1](/therainbowdragons/map-1/)** — Door Shape Distribution
 - **[M2](/therainbowdragons/map-2/)** — Graffiti & Sticker-Signage Distribution
 - **[M3](/therainbowdragons/map-3/)** — Door Colours Distribution
-- **[M4](/therainbowdragons/map-4/)** - Doors by Contributor
-- **[Reuse](/therainbowdragons/reuse/)** — How can the project be reused in the future?
+- **[M4](/therainbowdragons/map-4/)** - Doors visualized by the team contributor
+- **[Reuse](/therainbowdragons/reuse/)** — How can the project data might be reused in the future
 - **[About Us](/therainbowdragons/about/)** — Who we are and a bit about the team behind this project.
 
-We'd suggest starting with the Project Description for context, then
-working through M1 → M4 in order.
+We'd suggest starting with the Project Description for context, then working through M1 → M4 in order.
